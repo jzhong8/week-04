@@ -1,9 +1,64 @@
 body{
     background-color: rgb(33, 33, 102);
     color: white;
+    margin: 50px;
 }
 
 .author {
     font-size: 90px;
     color: rgb(212, 211, 255);
+}
+
+.author:hover {
+    cursor: move;
+}
+
+.section-title {
+    font-size: 45px;
+    color: rgb(209, 209, 209)
+}
+
+.project {
+    background-color: rgb(85, 69, 155);
+    padding-left: 25px;
+    margin-left: 25px;
+    border: 1px solid white;
+
+    /* border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(255, 255, 255);
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 255, 255);
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 255, 255);
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(255, 255, 255); */
+}
+
+.project-title {
+    font-size: 30px;
+    color: rgb(255, 165, 0);
+}
+
+.project p {
+    font-size: 20px;
+
+}
+
+.project a {
+    color: rgb(240, 133, 222);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project a:hover {
+    font-weight: normal;
+    border-bottom: 5px dotted rgb(255, 255, 0);
+
 }
