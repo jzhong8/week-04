@@ -1,6 +1,13 @@
+/* to add border to the whole body, not neccessary */
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
 body{
     background-color: rgb(33, 33, 102);
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 50px;
 }
 
@@ -18,10 +25,24 @@ body{
     color: rgb(209, 209, 209)
 }
 
+/* Projects Section */
+
+.projects {
+    display: grid;
+
+    /* grid-template-columns: 350px 2fr 1fr; */
+    /* grid-template-columns: repeat(2, 300px 1fr);
+    is the same as grid-template-columns: 300px 1fr 300px 1fr; */
+
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .project {
     background-color: rgb(85, 69, 155);
     padding-left: 25px;
     margin-left: 25px;
+    margin-right: 25px;
     border: 1px solid white;
 
     /* border-top-width: 1px;
